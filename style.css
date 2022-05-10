@@ -4,6 +4,37 @@
     box-sizing: border-box;
 }
 body{
+    background-image: url('./Millionaire.jpg');
+    min-height: 100vh;
+    background-size:  cover;
+    background-position: center center;
     font-family: "Raleway", sans-serif;
     margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 15%;
+    margin-left: 35%;
+}
+.countdown-container{
+    display: flex;
+    margin-left: 35%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.cntdw-el{
+    text-align: center;
+}
+.cntdw-el span{
+    font-size: 1.3rem;
 }
