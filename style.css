@@ -26,6 +26,8 @@ h1{
     margin-left: 35%;
     font-size: 2rem;
     font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .big-text{
     font-size: 6rem;
